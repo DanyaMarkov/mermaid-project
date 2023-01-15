@@ -1,0 +1,12 @@
+@import url("./Reset.css");
+main {
+  background-color: #ffffff;
+  min-height: 75vh;
+}
+
+@media (max-width: 1200px) {
+  main {
+    padding: 0px 0px;
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=App.css.map */

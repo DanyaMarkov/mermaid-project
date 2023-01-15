@@ -1,0 +1,19 @@
+@import url('./Reset.css');
+
+// header {}
+
+main {
+    // padding: 0 calc(50vw - 720px);
+    background-color: #ffffff;
+    min-height: 100vh - 25vh;
+}
+
+// footer {}
+
+
+@media (max-width: 1200px) { 
+    main {
+        padding: 0px 0px;
+        font-size: 12px;
+    }
+}
