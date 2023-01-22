@@ -1,0 +1,46 @@
+.phone {
+  position: fixed;
+  z-index: 999;
+  right: 3vw;
+  bottom: 3vh;
+  width: 15vw;
+  min-width: 242px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100px;
+  padding: 10px 20px;
+  box-shadow: 10px 11px 29px -3px rgba(34, 60, 80, 0.2);
+  text-decoration: none;
+  transition: 0.3s;
+}
+.phone__icon {
+  color: black;
+  background-color: #ecf2f3;
+  padding: 15px;
+  border-radius: 50%;
+}
+.phone__info {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: black;
+  align-items: center;
+}
+.phone__info:hover {
+  color: white;
+}
+
+.phone:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: #135a63;
+  color: white;
+}
+.phone:hover__icon {
+  background-color: #26676f;
+}
+.phone:hover__info {
+  color: white;
+}/*# sourceMappingURL=PhoneWidget.module.css.map */

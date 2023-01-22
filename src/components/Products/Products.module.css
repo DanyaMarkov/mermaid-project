@@ -1,7 +1,28 @@
+@import url(../../App/Variabless.scss);
 .products {
   display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  padding: 30px calc(50vw - 720px);
+}
+.products .header {
+  display: flex;
   flex-direction: row;
-  background-color: rebeccapurple;
-  min-height: 700px;
-  z-index: 3;
+  justify-content: space-around;
+  padding-bottom: 30px;
+  align-items: center;
+}
+.products .header__title {
+  font-weight: 600;
+  font-size: 40px;
+}
+.products .header__text {
+  width: 30%;
+  font-weight: 600;
+  font-size: 20px;
+}
+.products .cards {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 25px;
 }/*# sourceMappingURL=Products.module.css.map */

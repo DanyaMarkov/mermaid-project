@@ -5,7 +5,7 @@ import logo from "../../static/logo.png";
 
 const Header = () => {
     return (
-        <div className={css.header}>
+        <header className={css.header}>
             <div className={css.header__logo}>
                 <NavLink to="/">
                     <img src={logo} alt="logo" />
@@ -24,7 +24,7 @@ const Header = () => {
                     <span>{">"}</span>
                 </a>
             </div>
-        </div>
+        </header>
     );
 };
 

@@ -1,0 +1,33 @@
+$paddingCenter: 30px calc(50vw - 720px);
+
+
+.briefStatistic {
+    padding: $paddingCenter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__title {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    &__indicators {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        gap: 30px;
+    }
+}
+
+.indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 30px;
+    &__count {
+        font-size: 70px;
+        color: #135a63;
+    }
+    &__label {
+        font-size: 16px;
+        color: #73a4ab;
+    }
+}

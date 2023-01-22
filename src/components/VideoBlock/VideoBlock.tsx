@@ -3,12 +3,19 @@ import css from "./VideoBlock.module.css";
 import video from "../../static/mermaid-video.mp4";
 import cn from "classnames";
 import { NavLink } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 const VideoBlock = () => {
+    const [isVideoReady, setVideoReady] = useState(false);
+
+    useEffect(() => {
+        fetch("../../static/mermaid-video.mp4").then(() => setVideoReady(true));
+    }, []);
+
     return (
         <div className={css.videoBlock}>
             <div className={css.videoBlock__video}>
-                <video src={video} autoPlay muted loop></video>
+                {isVideoReady && <video src={video} autoPlay muted loop></video>}
             </div>
             <div className={cn(css.videoBlock__info, css.info)}>
                 <div className={css.info__title}>Турекцие электронагреватели</div>

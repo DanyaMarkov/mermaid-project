@@ -1,0 +1,31 @@
+.productCard {
+  display: flex;
+  flex-direction: column;
+  min-height: 370px;
+  border-radius: 10px;
+  background-size: cover;
+  transition: 0.3s;
+  padding: 30px 20px;
+  height: 100px;
+  border: 3px solid black;
+}
+.productCard__title {
+  font-size: 24px;
+  font-weight: 800;
+  display: inline;
+  color: white;
+  background-color: #045153;
+  border-radius: 10px;
+  padding: 15px 15px;
+}
+.productCard__text {
+  color: white;
+}
+.productCard:hover {
+  transition: 0.4s;
+  cursor: pointer;
+  background-size: 110%;
+}
+.productCard:hover__text {
+  display: block !important;
+}/*# sourceMappingURL=ProductCard.module.css.map */
