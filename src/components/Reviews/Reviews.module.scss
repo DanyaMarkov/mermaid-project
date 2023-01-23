@@ -1,0 +1,45 @@
+@import url(../../App/Variabless.scss);
+$paddingCenter: 30px calc(50vw - 600px);
+
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    background-color: #085051;
+    padding: $paddingCenter;
+    align-items: center;
+    &__title {
+        font-size: 50px;
+        color: white;
+    }
+
+    &__video {
+        padding: 40px;
+        width: 60%;
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: 15% 70% 15%;
+        color: white;
+
+        &__review {
+            padding: 40px 60px;
+        }
+
+        &__button {
+            height: 100%;
+            width: 100%;
+            filter: blur(2px);
+            background-color: rgba(255, 255, 211, 0.4);
+
+            transition: 0.3s;
+            &:hover {
+                transition: 0.3s;
+                background-color: aqua;
+            }
+        }
+    }
+    
+    
+}

@@ -1,0 +1,35 @@
+@import url(../../App/Variabless.scss);
+.reviews {
+  display: flex;
+  flex-direction: column;
+  background-color: #085051;
+  padding: 30px calc(50vw - 600px);
+  align-items: center;
+}
+.reviews__title {
+  font-size: 50px;
+  color: white;
+}
+.reviews__video {
+  padding: 40px;
+  width: 60%;
+}
+.reviews .content {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  color: white;
+}
+.reviews .content__review {
+  padding: 40px 60px;
+}
+.reviews .content__button {
+  height: 100%;
+  width: 100%;
+  filter: blur(2px);
+  background-color: rgba(255, 255, 211, 0.4);
+  transition: 0.3s;
+}
+.reviews .content__button:hover {
+  transition: 0.3s;
+  background-color: aqua;
+}/*# sourceMappingURL=Reviews.module.css.map */

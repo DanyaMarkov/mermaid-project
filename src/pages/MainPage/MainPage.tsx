@@ -3,6 +3,7 @@ import AdvantagesTable from "../../components/AdvantagesTable/AdvantagesTable";
 import BriefStatistic from "../../components/BriefStatistic/BriefStatistic";
 import PhoneWidget from "../../components/PhoneWidget/PhoneWidget";
 import Products from "../../components/Products/Products";
+import Reviews from "../../components/Reviews/Reviews";
 import css from "./MainPage.module.css";
 
 const MainPage = () => {
@@ -19,6 +20,7 @@ const MainPage = () => {
             <BriefStatistic />
 
             <PhoneWidget />
+            <Reviews />
         </div>
     );
 };
